@@ -1,1 +1,180 @@
-#recent-posts>.recent-post-item{background:rgba(255,255,255,.8)}.card-widget{background:rgba(255,255,255,.8)}.swiper-slide{background:rgba(255,255,255,.8)}.blog-slider{background:rgba(255,255,255,.8)}.swiper-container-fade{background:rgba(255,255,255,.8)}.swiper-container-horizontal{background:rgba(255,255,255,.8)}.blog-slider__item{background:rgba(255,255,255,.8)}.swiper-slide-prev{background:rgba(255,255,255,.8)}.blog-slider__wrp{background:rgba(255,255,255,.8)}div#post{background:#fff}.mermaid{background:0 0!important}div#page{background:rgba(255,255,255,.9)}div#archive{background:rgba(255,255,255,.9)}div#tag{background:rgba(255,255,255,.9)}div#category{background:rgba(255,255,255,.9)}#footer{background:0 0!important}#footer::before{background:0 0!important}footer-wrap{background:0 0!important}#page-header{background:0 0!important}@font-face{font-family:Candy;src:url(/fonts/Candy.ttf);font-display:swap}h1#site-title{font-family:Candy,sans-serif}body{cursor:url(https://cdn.jsdelivr.net/gh/wxydejoy/image//img/jxsj/202106/29/181322%20Normal.cur),default}a,button,img{cursor:url(https://cdn.jsdelivr.net/gh/wxydejoy/image//img/jxsj/202106/29/185511%20Link.cur),default}
+#recent-posts > .recent-post-item{
+    background:rgba(255, 255, 255, 0.8);
+}
+/* 首页侧栏卡片 */
+.card-widget{
+  background:rgba(255, 255, 255, 0.8);
+}
+
+.swiper-slide{
+  background: transparent!important;
+}
+
+.blog-slider{
+  background: transparent!important;
+}
+
+.swiper-container-fade{
+  background: transparent!important;
+}
+
+
+.swiper-container-horizontal{
+  background: transparent!important;
+}
+
+.blog-slider__item{
+  background: transparent!important;
+}  
+
+
+.swiper-slide-prev{
+  background: transparent!important;
+}
+
+.blog-slider__wrp{
+  background: transparent!important;
+}
+
+#post-info .post-title {
+  margin-bottom: 3rem;
+  
+}
+
+#recent-posts > .recent-post-item{
+  background:rgba(255, 255, 255, 0.8);
+}
+
+
+div#post{
+  background: rgba(255, 255, 255,0.9);
+}
+.mermaid {
+ background: transparent!important;
+}
+
+.layout>div:first-child:not(.recent-posts) {
+  padding: 20px 40px;                              
+}
+
+/* 分页页面 */
+div#page{
+  background: rgba(255, 255, 255, 0.9);
+}
+/* 归档页面 */
+div#archive{
+  background: rgba(255, 255, 255, 0.9);
+}
+/* 标签页面 */
+div#tag{
+  background: rgba(255, 255, 255, 0.9);
+}
+/* 分类页面 */
+div#category{
+  background: rgba(255, 255, 255, 0.9);
+  
+}
+
+/*
+#footer{
+  background: transparent!important;
+  
+}
+
+
+#footer::before{
+      background: transparent!important;
+    }
+ 页脚透明 
+footer-wrap{
+  background: transparent!important;
+  
+}
+*/
+/*诗词下划线去除*/
+
+@media (min-width: 1200px){
+  .poem p {
+      text-decoration: auto;
+      text-decoration-style: dashed;
+  }
+  
+  }
+
+@font-face{
+  font-family:'Candy' ;  /* 字体名自定义即可 */
+  src:url('/fonts/Candy.ttf'); /* 字体文件路径 */
+  font-display : swap;
+}
+
+h1#site-title {
+  font-family: 'Candy', sans-serif;
+}
+
+
+/*10s为加载动画的时间，1为加载动画的次数，ease-in-out为动画效果*/
+/*
+#page-header,#web_bg,#post{
+    -webkit-animation: imgblur 0.5s 1 ease-in-out;
+    animation: imgblur 0.5s 1 ease-in-out;
+}
+@keyframes imgblur {
+  0% {
+    filter: blur(5px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+
+@-webkit-keyframes imgblur {
+  0% {
+    -webkit-filter: blur(5px);
+  }
+  100% {
+    -webkit-filter: blur(0px);
+  }
+}
+*/
+
+
+body{cursor:url(https://cdn.jsdelivr.net/gh/wxydejoy/image/img202107/07/104725%20Normal.cur),default}
+
+
+a,button,img{cursor:url(https://cdn.jsdelivr.net/gh/wxydejoy/image/img202107/07/104602%20Link.cur),default}
+
+/* 全局默认鼠标指针 */
+body,
+html{
+  cursor: url('https://cdn.jsdelivr.net/gh/wxydejoy/image/img202107/07/104725%20Normal.cur'),auto !important;
+}
+/* 悬停图片时的鼠标指针 */
+img{
+  cursor: url('https://cdn.jsdelivr.net/gh/wxydejoy/image/img202107/07/104602%20Link.cur'),auto !important;
+}
+/* 选择链接标签时的鼠标指针 */
+a:hover{
+    cursor: url('https://cdn.jsdelivr.net/gh/wxydejoy/image/img202107/07/104602%20Link.cur'),auto;
+}
+/* 选中输入框时的鼠标指针 */
+
+/* 悬停按钮时的鼠标指针 */
+button:hover{
+    cursor: url('https://cdn.jsdelivr.net/gh/wxydejoy/image/img202107/07/104602%20Link.cur'),auto;
+}
+/* 悬停列表标签时的鼠标指针 */
+i:hover{
+    cursor: url('https://cdn.jsdelivr.net/gh/wxydejoy/image/img202107/07/104602%20Link.cur'),auto;
+}
+/* 悬停页脚链接标签（例如页脚徽标）时的鼠标指针 */
+#footer-wrap a:hover{
+      cursor: url('https://cdn.jsdelivr.net/gh/wxydejoy/image/img202107/07/104602%20Link.cur'),auto;
+}
+/* 悬停页码时的鼠标指针 */
+#pagination .page-number:hover{
+      cursor: url('https://cdn.jsdelivr.net/gh/wxydejoy/image/img202107/07/104602%20Link.cur'),auto;
+}
+/* 悬停菜单栏时的鼠标指针 */
+#nav .site-page:hover{
+      cursor: url('https://cdn.jsdelivr.net/gh/wxydejoy/image/img202107/07/104602%20Link.cur'),auto;
+}
