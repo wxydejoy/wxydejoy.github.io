@@ -1,0 +1,135 @@
+:root{
+    --wxy-white: #fff;
+    --wxy-black: #000;
+    --wxy-none: rgba(0,0,0,0);
+    --wxy-gray: #030303;
+    --wxy-yellow: #ffc93e;
+    --wxy-main: #007AFF;
+    --wxy-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234,.20);
+    --wxy-shadow-white: 0 8px 12px -3px rgba(255, 255, 255,.20);
+    --wxy-shadow-black: 0 0 12px 4px rgba(0, 0, 0,.05);
+    --wxy-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62,.12);
+    --wxy-shadow-pink: 0 8px 12px -3px #ee7d7936;
+    --wxy-logo-color: linear-gradient(215deg,#4584ff 30%,#ff7676 70%);
+    --wxy-theme: #425AEF;
+    --wxy-blue: #425AEF;
+    --wxy-red: #D8213C;
+    --wxy-green: #008200;
+    --wxy-fontcolor: #363636;
+    --wxy-background: #f4f4f4;
+    --wxy-reverse: #000;
+    --wxy-maskbg: rgba(255, 255, 255, 0.6);
+    --wxy-hovertext: #5374ff;
+    --wxy-ahoverbg: #F7F7FA;
+    --wxy-lighttext: #ef794f;
+    --wxy-secondtext: rgba(60, 60, 67, 0.6);
+    --wxy-scrollbar: rgba(60, 60, 67, 0.4);
+    --wxy-card-btn-bg: #f1f2f2;
+    --wxy-post-blockquote-bg: #fafcff;
+    --wxy-post-tabs-bg: #f2f5f8;
+    --wxy-secondbg: #f1f2f2;
+    --wxy-shadow-nav:0 5px 12px -5px rgba(102, 68, 68, 0.05);
+    --wxy-card-bg: #fff;
+    --wxy-shadow-lightblack:0 5px 12px -5px rgba(102, 68, 68, 0.00);
+    --wxy-shadow-light2black:0 5px 12px -5px rgba(102, 68, 68, 0.00);
+  }
+/* bb哔哔 */
+/* bb样式 */
+
+.timeline ul li{
+  position: relative;
+  padding-left: 2.5rem;
+}
+
+/* 标题 */
+.bb-info{
+  display: inline;
+  float: right;
+  line-height: 3.7rem;
+  color: var(--wxy-secondtext);
+}
+
+/* 每条动态 */
+#bber > section > ul > div > li > div{
+    display: flex;
+    flex-direction: initial;
+    flex-wrap: wrap;
+    background: #fafcff00;
+    
+    border-radius: 12px;
+    padding: 8px 16px;
+    margin-top: 12px;
+    border: solid;
+    border-color: #acacd3;
+}
+
+#bber p{
+  margin: 0;
+}
+
+#bber .datafrom i{
+  margin-right: 4px;
+}
+
+/* 时间 */
+#bber > section > ul > div > li > div .datatime{
+  order: 1;
+  color: var(--wxy-secondtext);
+  font-size: 0.6rem;
+}
+
+/* 内容 */
+#bber > section > ul > div > li > div .datacont{
+  order: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--wxy-lighttext);
+  width: 100%;
+  line-height: 1.38;
+  margin: 8px 0;
+}
+
+/* 设备 */
+#bber > section > ul > div > li > div .datafrom{
+  order: 2;
+  color: var(--wxy-secondtext);
+  font-size: 0.6rem!important;
+  margin-left: 8px;
+}
+#bber > section > ul > div > li > div .datafrom small{
+  font-size: 100%;
+}
+
+/* 时间线 */
+.timeline ul li::before {
+  position: absolute;
+  top: 0.5rem;
+  left: 0rem;
+  z-index: 1;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 8px;
+  background: var(--card-bg);
+  content: "";
+  background-size: 2rem;
+}
+
+/* 加载更多 */
+.load-btn.button-load{
+  background: var(--wxy-card-btn-bg);
+  color: var(--wxy-fontcolor);
+  padding: 12px 12px;
+  margin: 8px 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 12px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.load-btn.button-load:hover{
+  background: var(--wxy-main);
+  color: var(--wxy-white);
+  transition: 0.3s;
+  box-shadow: var(--wxy-shadow-blue);
+}
